@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  background: rgb(239, 240, 236);
+}
+
+th,
+td {
+  padding: 5px 40px;
+  /* text-align: right; */
+}
+
+/* #table {
+  border-collapse: collapse;
+} */
+
+#input-field {
+  padding: 5px 40px;
+}
+
+#total-btn {
+  padding: 5px 40px;
+}
